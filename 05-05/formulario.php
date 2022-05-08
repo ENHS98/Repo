@@ -1,10 +1,5 @@
 <?php
 session_start();
-session_destroy();
- ?>
-<a href="formulario.php">Volver Formulario</a>
-<?php
-session_start();
 
 if (!$_SESSION['personas'])
 {
